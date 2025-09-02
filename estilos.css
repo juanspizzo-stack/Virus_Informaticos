@@ -1,0 +1,131 @@
+body{
+    background-color:#d0cff5;
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+h1{
+    color:blue;
+    font-family: 'Courier New', Courier, monospace;
+}
+h2{
+    color:rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+}
+h3{
+    color:rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul{
+   color: blue;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+ol{
+    color: red;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+.nav-enlace{
+    display:inline-block;
+    background-color: rgb(26, 42, 128);
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.nav-enlace:hover{
+    background-color: rgb(178, 176, 232);
+}
+nav{
+    background-color: rgb(59, 56, 160);
+    padding:10px;
+    display: flex;
+    justify-content: space-around;
+
+}
+header, section, footer{
+    padding: 20px;
+    color: white;
+    border:2px solid #ccc ;
+}
+header{
+    border:2px solid #ccc ;
+    background-color:rgb(178, 176, 232);
+}
+section{
+    border: 2px solid black; 
+    background-color: rgb(26, 42, 128);
+    min-height: 200px;
+}
+footer{
+    border: 2px solid #ccc;
+    background-color: #343a40;
+    text-align: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 100vh;
+}
+section{
+    border: 2px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 400px;
+    background-color: #ffffff;
+    padding: 45px 45px 30px 30px;
+    margin-top: 50px;
+    justify-content: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+ }
+ form h2{
+    font-size: 35px;
+    margin-bottom: 35px;
+    color: #686262;
+ }
+input{
+    background-color: #dad1d1;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-radius: 25px;
+    color: #e21313;
+    outline: none;
+    font-size: 16px;
+}
+.btn{
+    background-color: rgb(59, 56, 160);
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(178, 176, 232);
+
+}
+@media(max-midth:991px){
+    body{
+        padding: 30px;
+        
+    }
+    form{
+        width: 340px;
+    }
+}
